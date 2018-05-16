@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Preguntas</title>
+</head>
+<body>
+<script>
+    myFunction();
+    function myFunction() {
+        const elem_p = document.createElement('p1');
+        const txt_01 = document.createTextNode('La Pregunta es');
+        elem_p.appendChild(txt_01);
+        document.body.appendChild(elem_p);
+        const elem_br = document.createElement('br');
+        document.body.appendChild(elem_br)
+        const elem_h = document.createElement('h1');
+        const txt_02 = document.createTextNode('La respuesta es');
+        elem_p.appendChild(txt_02);
+        document.body.appendChild(elem_h);
+    }
+</script>
+</body>
+</html>
